@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		408594712AD5781200755882 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408594702AD5781200755882 /* CoreDataManager.swift */; };
+		409D2D842AD5A30A00DAD4C7 /* SavedPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D2D832AD5A30A00DAD4C7 /* SavedPostsViewController.swift */; };
+		409D2D862AD5A44D00DAD4C7 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D2D852AD5A44D00DAD4C7 /* MainTabViewController.swift */; };
+		409D2D892AD5A84C00DAD4C7 /* SavedPost+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D2D872AD5A84C00DAD4C7 /* SavedPost+CoreDataClass.swift */; };
+		409D2D8A2AD5A84C00DAD4C7 /* SavedPost+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D2D882AD5A84C00DAD4C7 /* SavedPost+CoreDataProperties.swift */; };
 		40AB855D2AD537FA00894976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB855C2AD537FA00894976 /* AppDelegate.swift */; };
 		40AB855F2AD537FA00894976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB855E2AD537FA00894976 /* SceneDelegate.swift */; };
-		40AB85612AD537FA00894976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85602AD537FA00894976 /* ViewController.swift */; };
-		40AB85642AD537FA00894976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB85622AD537FA00894976 /* Main.storyboard */; };
+		40AB85612AD537FA00894976 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85602AD537FA00894976 /* PostsViewController.swift */; };
 		40AB85672AD537FA00894976 /* olchatask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85652AD537FA00894976 /* olchatask.xcdatamodeld */; };
 		40AB85692AD537FC00894976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AB85682AD537FC00894976 /* Assets.xcassets */; };
 		40AB856C2AD537FC00894976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB856A2AD537FC00894976 /* LaunchScreen.storyboard */; };
+		40AB85742AD5387B00894976 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85732AD5387B00894976 /* PostViewModel.swift */; };
+		40AB85772AD53BE500894976 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 40AB85762AD53BE500894976 /* SnapKit */; };
+		40AB85792AD5468400894976 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85782AD5468400894976 /* APIManager.swift */; };
+		40AB857B2AD547FE00894976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB857A2AD547FE00894976 /* Constants.swift */; };
+		40AB857E2AD549E100894976 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB857D2AD549E100894976 /* PostData.swift */; };
+		40AB85802AD549F800894976 /* AuthorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB857F2AD549F800894976 /* AuthorData.swift */; };
+		40AB85822AD54A2B00894976 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85812AD54A2B00894976 /* Post.swift */; };
+		40AB85852AD54A4900894976 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85842AD54A4900894976 /* APIError.swift */; };
+		40AB85892AD54BA500894976 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB85882AD54BA400894976 /* PostDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		408594702AD5781200755882 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		409D2D832AD5A30A00DAD4C7 /* SavedPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPostsViewController.swift; sourceTree = "<group>"; };
+		409D2D852AD5A44D00DAD4C7 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		409D2D872AD5A84C00DAD4C7 /* SavedPost+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedPost+CoreDataClass.swift"; sourceTree = "<group>"; };
+		409D2D882AD5A84C00DAD4C7 /* SavedPost+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedPost+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		40AB85592AD537FA00894976 /* olchatask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olchatask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AB855C2AD537FA00894976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40AB855E2AD537FA00894976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40AB85602AD537FA00894976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40AB85632AD537FA00894976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40AB85602AD537FA00894976 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		40AB85662AD537FA00894976 /* olchatask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = olchatask.xcdatamodel; sourceTree = "<group>"; };
 		40AB85682AD537FC00894976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AB856B2AD537FC00894976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AB856D2AD537FC00894976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AB85732AD5387B00894976 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		40AB85782AD5468400894976 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		40AB857A2AD547FE00894976 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40AB857D2AD549E100894976 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		40AB857F2AD549F800894976 /* AuthorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorData.swift; sourceTree = "<group>"; };
+		40AB85812AD54A2B00894976 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		40AB85842AD54A4900894976 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		40AB85882AD54BA400894976 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +58,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AB85772AD53BE500894976 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		409D2D8C2AD5AA5F00DAD4C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				409D2D852AD5A44D00DAD4C7 /* MainTabViewController.swift */,
+				40AB85602AD537FA00894976 /* PostsViewController.swift */,
+				40AB85882AD54BA400894976 /* PostDetailsViewController.swift */,
+				409D2D832AD5A30A00DAD4C7 /* SavedPostsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		40AB85502AD537FA00894976 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +95,57 @@
 		40AB855B2AD537FA00894976 /* olchatask */ = {
 			isa = PBXGroup;
 			children = (
+				408594702AD5781200755882 /* CoreDataManager.swift */,
+				409D2D872AD5A84C00DAD4C7 /* SavedPost+CoreDataClass.swift */,
+				409D2D882AD5A84C00DAD4C7 /* SavedPost+CoreDataProperties.swift */,
+				40AB85872AD54AFE00894976 /* Network */,
+				40AB85832AD54A3D00894976 /* Enums */,
+				40AB857C2AD549CE00894976 /* Models */,
+				40AB85862AD54AF200894976 /* ViewModels */,
+				409D2D8C2AD5AA5F00DAD4C7 /* Views */,
 				40AB855C2AD537FA00894976 /* AppDelegate.swift */,
 				40AB855E2AD537FA00894976 /* SceneDelegate.swift */,
-				40AB85602AD537FA00894976 /* ViewController.swift */,
-				40AB85622AD537FA00894976 /* Main.storyboard */,
 				40AB85682AD537FC00894976 /* Assets.xcassets */,
 				40AB856A2AD537FC00894976 /* LaunchScreen.storyboard */,
 				40AB856D2AD537FC00894976 /* Info.plist */,
 				40AB85652AD537FA00894976 /* olchatask.xcdatamodeld */,
 			);
 			path = olchatask;
+			sourceTree = "<group>";
+		};
+		40AB857C2AD549CE00894976 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40AB857D2AD549E100894976 /* PostData.swift */,
+				40AB857F2AD549F800894976 /* AuthorData.swift */,
+				40AB85812AD54A2B00894976 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40AB85832AD54A3D00894976 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				40AB85842AD54A4900894976 /* APIError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		40AB85862AD54AF200894976 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				40AB85732AD5387B00894976 /* PostViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		40AB85872AD54AFE00894976 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				40AB85782AD5468400894976 /* APIManager.swift */,
+				40AB857A2AD547FE00894976 /* Constants.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +164,9 @@
 			dependencies = (
 			);
 			name = olchatask;
+			packageProductDependencies = (
+				40AB85762AD53BE500894976 /* SnapKit */,
+			);
 			productName = olchatask;
 			productReference = 40AB85592AD537FA00894976 /* olchatask.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 40AB85502AD537FA00894976;
+			packageReferences = (
+				40AB85752AD53BE500894976 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 40AB855A2AD537FA00894976 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +214,6 @@
 			files = (
 				40AB856C2AD537FC00894976 /* LaunchScreen.storyboard in Resources */,
 				40AB85692AD537FC00894976 /* Assets.xcassets in Resources */,
-				40AB85642AD537FA00894976 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +224,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409D2D862AD5A44D00DAD4C7 /* MainTabViewController.swift in Sources */,
+				40AB85792AD5468400894976 /* APIManager.swift in Sources */,
+				40AB857E2AD549E100894976 /* PostData.swift in Sources */,
+				408594712AD5781200755882 /* CoreDataManager.swift in Sources */,
+				409D2D842AD5A30A00DAD4C7 /* SavedPostsViewController.swift in Sources */,
+				409D2D892AD5A84C00DAD4C7 /* SavedPost+CoreDataClass.swift in Sources */,
+				40AB85742AD5387B00894976 /* PostViewModel.swift in Sources */,
 				40AB85672AD537FA00894976 /* olchatask.xcdatamodeld in Sources */,
-				40AB85612AD537FA00894976 /* ViewController.swift in Sources */,
+				40AB85612AD537FA00894976 /* PostsViewController.swift in Sources */,
+				40AB857B2AD547FE00894976 /* Constants.swift in Sources */,
+				40AB85802AD549F800894976 /* AuthorData.swift in Sources */,
 				40AB855D2AD537FA00894976 /* AppDelegate.swift in Sources */,
 				40AB855F2AD537FA00894976 /* SceneDelegate.swift in Sources */,
+				40AB85892AD54BA500894976 /* PostDetailsViewController.swift in Sources */,
+				40AB85852AD54A4900894976 /* APIError.swift in Sources */,
+				40AB85822AD54A2B00894976 /* Post.swift in Sources */,
+				409D2D8A2AD5A84C00DAD4C7 /* SavedPost+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		40AB85622AD537FA00894976 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40AB85632AD537FA00894976 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40AB856A2AD537FC00894976 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +384,6 @@
 				INFOPLIST_FILE = olchatask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +411,6 @@
 				INFOPLIST_FILE = olchatask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		40AB85752AD53BE500894976 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40AB85762AD53BE500894976 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40AB85752AD53BE500894976 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		40AB85652AD537FA00894976 /* olchatask.xcdatamodeld */ = {
